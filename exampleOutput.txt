@@ -1,0 +1,63 @@
+The Sum of the length of the DNA strings is: 32
+The Mean of the length of the DNA strings is 6.4
+The variance of the length of the DNA strings is: 0.64
+The Standard Deviation of the length of the DNA stings is: 0.8
+Here is the relative probability of each nucleotide:
+
+A:           0.25
+C:           0.25
+T:           0.25
+G:           0.25
+
+Here is the relative probability of each nucleotide bigram:
+AA:          0.0625
+AC:          0.0625
+AT:          0.0625
+AG:          0.0625
+CA:          0.0625
+CC:          0.0625
+CT:          0.0625
+CG:          0.0625
+TA:          0.0625
+TC:          0.0625
+TT:          0.0625
+TG:          0.0625
+GA:          0.0625
+GC:          0.0625
+GT:          0.0625
+GG:          0.0625
+
+
+
+"The sum of the nucleotides is: "<< realSize << endl <<
+  "The amount of nucleotides is: "<< count<< endl <<
+  "The mean length of each is: "<< mean<< endl <<
+  "the varaince is: "<< var << endl <<
+  "the standard deviation is: "<< standardDev<< endl<<
+  "           "<< endl <<
+  "A's probability "<< Aprob << endl <<
+  "G's probability "<< Gprob << endl <<
+  "C's probability "<< Cprob << endl <<
+  "T's probability "<< Tprob << endl <<
+  "           "<< endl <<
+  "The probability of AA is: "<< AAcount/bigramCount << endl <<
+  "The probability of AT is: "<< ATcount/bigramCount << endl <<
+  "The probability of AC is: "<< ACcount/bigramCount << endl <<
+  "The probability of AG is: "<< AGcount/bigramCount << endl <<
+  "The probability of TT is: "<< TTcount/bigramCount << endl<<
+  "The probability of TA is: "<< TAcount/bigramCount << endl<<
+  "The probability of TG is: "<< TGcount/bigramCount << endl<<
+  "The probability of TC is: "<< TCcount/bigramCount << endl<<
+  "The probability of GT is: "<< GTcount/bigramCount << endl<<
+  "The probability of GA is: "<< GAcount/bigramCount << endl<<
+  "The probability of GG is: "<< GGcount/bigramCount << endl<<
+  "The probability of GC is: "<< GCcount/bigramCount << endl<<
+  "The probability of CT is: "<< TTcount/bigramCount << endl<<
+  "The probability of CA is: "<< TAcount/bigramCount << endl<<
+  "The probability of CG is: "<< TGcount/bigramCount << endl<<
+  "The probability of CC is: "<< TCcount/bigramCount << endl<<
+
+
+
+
+
